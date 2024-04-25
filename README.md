@@ -6,7 +6,7 @@
 yt-dlp "<URL>"
 ```
 
-#### Example:
+##### Example:
 
 ```
 yt-dlp "https://www.youtube.com/watch?v=UbQgXeY_zi4"
@@ -18,7 +18,7 @@ yt-dlp "https://www.youtube.com/watch?v=UbQgXeY_zi4"
 yt-dlp --recode-video mp4 "<URL>"
 ```
 
-#### Example:
+##### Example:
 
 ```
 yt-dlp --recode-video mp4 "https://www.youtube.com/watch?v=UbQgXeY_zi4"
@@ -30,10 +30,22 @@ yt-dlp --recode-video mp4 "https://www.youtube.com/watch?v=UbQgXeY_zi4"
 yt-dlp -x --audio-format mp3 "<URL>"
 ```
 
-#### Example:
+##### Example:
 
 ```
 yt-dlp -x --audio-format mp3 "https://www.youtube.com/watch?v=UbQgXeY_zi4"
+```
+
+### Recommendation: Removal of non-music parts using [SponsorBlock](https://sponsor.ajay.app/)
+
+```
+yt-dlp -x --audio-format mp3 --sponsorblock-remove all "<URL>"
+```
+
+##### Example:
+
+```
+yt-dlp -x --audio-format mp3 --sponsorblock-remove all "https://www.youtube.com/watch?v=UbQgXeY_zi4"
 ```
 
 ## Documentation
